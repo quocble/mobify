@@ -1,0 +1,2483 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 14:36:59 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 14:36:59 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 380ms (Views: 379.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=https%3A%2F%2Fmy-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:37:20 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"https://my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:37:20 -0700
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 14:37:25 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:47:42 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (1.3ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:47:42 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:48:38 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (1.2ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:48:38 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:48:52 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:48:52 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:49:33 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:49:33 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:49:41 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:49:41 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:50:13 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (1.3ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:50:13 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:50:13 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:51:16 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:51:16 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:59:35 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (1.9ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:59:35 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 14:59:35 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:00:04 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (1.2ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:00:05 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:01:16 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (1.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:01:17 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:01:25 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:01:25 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:07:22 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:07:22 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:24:02 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (1.8ms)
+Completed 200 OK in 16ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:24:02 -0700
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:24:56 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:24:56 -0700
+
+
+Started GET "/auth/shopify/callback?code=ccac1f9845e626f402653d9114845855&hmac=d517a5656c6ec383347600a657cb0c59a6ea2f17a4b0dc37498246b4b19db6f0&shop=my-fun-little-store.myshopify.com&signature=2ead0b8d822d82eae8d9e25e80902e63&state=32753cc82538b2ce6255f39fddc1caa30afc32a04a18a645&timestamp=1444429502" for 127.0.0.1 at 2015-10-09 15:25:05 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"ccac1f9845e626f402653d9114845855", "hmac"=>"d517a5656c6ec383347600a657cb0c59a6ea2f17a4b0dc37498246b4b19db6f0", "shop"=>"my-fun-little-store.myshopify.com", "signature"=>"2ead0b8d822d82eae8d9e25e80902e63", "state"=>"32753cc82538b2ce6255f39fddc1caa30afc32a04a18a645", "timestamp"=>"1444429502"}
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 1.2ms)
+
+ActiveRecord::StatementInvalid (Could not find table 'shops'):
+  app/models/session_storage.rb:3:in `store'
+
+
+
+
+Started GET "/auth/shopify/callback?code=ccac1f9845e626f402653d9114845855&hmac=d517a5656c6ec383347600a657cb0c59a6ea2f17a4b0dc37498246b4b19db6f0&shop=my-fun-little-store.myshopify.com&signature=2ead0b8d822d82eae8d9e25e80902e63&state=32753cc82538b2ce6255f39fddc1caa30afc32a04a18a645&timestamp=1444429502" for 127.0.0.1 at 2015-10-09 15:26:55 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 732cf312-9f10-48ad-877a-e4dce0adfdef</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/auth/shopify/callback?code=ccac1f9845e626f402653d9114845855&hmac=d517a5656c6ec383347600a657cb0c59a6ea2f17a4b0dc37498246b4b19db6f0&shop=my-fun-little-store.myshopify.com&signature=2ead0b8d822d82eae8d9e25e80902e63&state=32753cc82538b2ce6255f39fddc1caa30afc32a04a18a645&timestamp=1444429502" for 127.0.0.1 at 2015-10-09 15:27:03 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 8fc78316-722e-448f-99de-726e9e63e9ae</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/auth/shopify/callback?code=ccac1f9845e626f402653d9114845855&hmac=d517a5656c6ec383347600a657cb0c59a6ea2f17a4b0dc37498246b4b19db6f0&shop=my-fun-little-store.myshopify.com&signature=2ead0b8d822d82eae8d9e25e80902e63&state=32753cc82538b2ce6255f39fddc1caa30afc32a04a18a645&timestamp=1444429502" for 127.0.0.1 at 2015-10-09 15:27:33 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: bb2382e7-fe43-4b2b-b61c-7e874af71349</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/auth/shopify/callback?code=ccac1f9845e626f402653d9114845855&hmac=d517a5656c6ec383347600a657cb0c59a6ea2f17a4b0dc37498246b4b19db6f0&shop=my-fun-little-store.myshopify.com&signature=2ead0b8d822d82eae8d9e25e80902e63&state=32753cc82538b2ce6255f39fddc1caa30afc32a04a18a645&timestamp=1444429502" for 127.0.0.1 at 2015-10-09 15:28:08 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 38befa42-e8ab-4f08-a632-d38f93f25064</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/auth/shopify/callback?code=6f565fa26bb66fb9bbfc8bb6666dfa02&hmac=b30b1a351e975c4faff5fdee65b7daf8410e2ec67d00cf6c1eb88423862a20c6&shop=my-fun-little-store.myshopify.com&signature=8eb6b042d9f8e113c2e1c3e573a334f3&state=746bc361599d58404304238b12f19f37662c015f6af41d82&timestamp=1444429697" for 127.0.0.1 at 2015-10-09 15:28:19 -0700
+
+OmniAuth::Strategies::OAuth2::CallbackError (csrf_detected | CSRF detected):
+  omniauth (1.2.2) lib/omniauth/failure_endpoint.rb:25:in `raise_out!'
+  omniauth (1.2.2) lib/omniauth/failure_endpoint.rb:20:in `call'
+  omniauth (1.2.2) lib/omniauth/failure_endpoint.rb:12:in `call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:475:in `fail!'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:71:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:28:29 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:28:29 -0700
+
+
+Started GET "/auth/shopify/callback?code=79b3305bce89af3524fe51a1c98fd678&hmac=aa6d966b37d8e02a08b9733307e3d1ff513a3bc37e7542d9005e48449a8df3f6&shop=my-fun-little-store.myshopify.com&signature=4a2dfee294f712ca8374fbd536cd7661&state=e6549786fd0004284f7da3b6fef23284b8f9d7127702184e&timestamp=1444429707" for 127.0.0.1 at 2015-10-09 15:28:29 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"79b3305bce89af3524fe51a1c98fd678", "hmac"=>"aa6d966b37d8e02a08b9733307e3d1ff513a3bc37e7542d9005e48449a8df3f6", "shop"=>"my-fun-little-store.myshopify.com", "signature"=>"4a2dfee294f712ca8374fbd536cd7661", "state"=>"e6549786fd0004284f7da3b6fef23284b8f9d7127702184e", "timestamp"=>"1444429707"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::StatementInvalid (Could not find table 'shops'):
+  app/models/session_storage.rb:3:in `store'
+
+
+
+
+Started GET "/auth/shopify/callback?code=79b3305bce89af3524fe51a1c98fd678&hmac=aa6d966b37d8e02a08b9733307e3d1ff513a3bc37e7542d9005e48449a8df3f6&shop=my-fun-little-store.myshopify.com&signature=4a2dfee294f712ca8374fbd536cd7661&state=e6549786fd0004284f7da3b6fef23284b8f9d7127702184e&timestamp=1444429707" for 127.0.0.1 at 2015-10-09 15:29:08 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: f32fd31d-48d1-4ed2-930b-138d29ff4f02</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/login?shop=http://teststorequoc.myshopify.com/admin" for 127.0.0.1 at 2015-10-09 15:30:37 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"http://teststorequoc.myshopify.com/admin"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=teststorequoc.myshopify.com" for 127.0.0.1 at 2015-10-09 15:30:37 -0700
+
+
+Started GET "/auth/shopify/callback?code=1a8ac5ae86cbef2e02e5e2778a5ef0a1&hmac=659c2eb03fb692453e9b3990325192a60fcc9b248b8749929f1abf46931a4982&shop=teststorequoc.myshopify.com&signature=8f135cf8a9c92e8f52cef05dbeb67b5d&state=64f407371e7352379dcb25b014c0652d6585d4c5e1a9f531&timestamp=1444429841" for 127.0.0.1 at 2015-10-09 15:30:43 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"1a8ac5ae86cbef2e02e5e2778a5ef0a1", "hmac"=>"659c2eb03fb692453e9b3990325192a60fcc9b248b8749929f1abf46931a4982", "shop"=>"teststorequoc.myshopify.com", "signature"=>"8f135cf8a9c92e8f52cef05dbeb67b5d", "state"=>"64f407371e7352379dcb25b014c0652d6585d4c5e1a9f531", "timestamp"=>"1444429841"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::StatementInvalid (Could not find table 'shops'):
+  app/models/session_storage.rb:3:in `store'
+
+
+
+
+Started GET "/auth/shopify/callback?code=1a8ac5ae86cbef2e02e5e2778a5ef0a1&hmac=659c2eb03fb692453e9b3990325192a60fcc9b248b8749929f1abf46931a4982&shop=teststorequoc.myshopify.com&signature=8f135cf8a9c92e8f52cef05dbeb67b5d&state=64f407371e7352379dcb25b014c0652d6585d4c5e1a9f531&timestamp=1444429841" for 127.0.0.1 at 2015-10-09 15:31:40 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 74b71b29-9dd2-4f57-bcea-c237c651427c</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/auth/shopify/callback?code=1a8ac5ae86cbef2e02e5e2778a5ef0a1&hmac=659c2eb03fb692453e9b3990325192a60fcc9b248b8749929f1abf46931a4982&shop=teststorequoc.myshopify.com&signature=8f135cf8a9c92e8f52cef05dbeb67b5d&state=64f407371e7352379dcb25b014c0652d6585d4c5e1a9f531&timestamp=1444429841" for 127.0.0.1 at 2015-10-09 15:31:42 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 42c39efb-9779-48fc-a7b7-97afb929db1a</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/auth/shopify/callback?code=1a8ac5ae86cbef2e02e5e2778a5ef0a1&hmac=659c2eb03fb692453e9b3990325192a60fcc9b248b8749929f1abf46931a4982&shop=teststorequoc.myshopify.com&signature=8f135cf8a9c92e8f52cef05dbeb67b5d&state=64f407371e7352379dcb25b014c0652d6585d4c5e1a9f531&timestamp=1444429841" for 127.0.0.1 at 2015-10-09 15:32:10 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 984b62f9-5f75-482c-8418-5033ac0254ed</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:37:27 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 15:37:27 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 233ms (Views: 233.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify/callback?code=1a8ac5ae86cbef2e02e5e2778a5ef0a1&hmac=659c2eb03fb692453e9b3990325192a60fcc9b248b8749929f1abf46931a4982&shop=teststorequoc.myshopify.com&signature=8f135cf8a9c92e8f52cef05dbeb67b5d&state=64f407371e7352379dcb25b014c0652d6585d4c5e1a9f531&timestamp=1444429841" for 127.0.0.1 at 2015-10-09 15:38:03 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 37e92dea-f616-4adf-9ed5-c275f8cb53a6</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:40:30 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:40:30 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:40:45 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 15:40:45 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=http%3A%2F%2Fteststorequoc.myshopify.com%2Fadmin" for 127.0.0.1 at 2015-10-09 15:41:00 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"http://teststorequoc.myshopify.com/admin"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=teststorequoc.myshopify.com" for 127.0.0.1 at 2015-10-09 15:41:00 -0700
+
+
+Started GET "/login?shop=http://teststorequoc.myshopify.com/admin" for 127.0.0.1 at 2015-10-09 15:44:38 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"http://teststorequoc.myshopify.com/admin"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=teststorequoc.myshopify.com" for 127.0.0.1 at 2015-10-09 15:44:38 -0700
+
+
+Started GET "/auth/shopify/callback?code=7775668730cc59a3784dd05ce8b752a6&hmac=c49a484b1fb1951fc6642afd85e30639cc42df49f67a7af80a662bcb37d090a3&shop=teststorequoc.myshopify.com&signature=70152e224f786c8be248e2d4d643acad&state=a27181c0b4ea602cefb7d39833f9b1bdf553daa1e7a5fda3&timestamp=1444430760" for 127.0.0.1 at 2015-10-09 15:46:02 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"7775668730cc59a3784dd05ce8b752a6", "hmac"=>"c49a484b1fb1951fc6642afd85e30639cc42df49f67a7af80a662bcb37d090a3", "shop"=>"teststorequoc.myshopify.com", "signature"=>"70152e224f786c8be248e2d4d643acad", "state"=>"a27181c0b4ea602cefb7d39833f9b1bdf553daa1e7a5fda3", "timestamp"=>"1444430760"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::StatementInvalid (Could not find table 'shops'):
+  app/models/session_storage.rb:3:in `store'
+
+
+
+
+Started GET "/login?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:47:34 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"my-fun-little-store.myshopify.com"}
+  Rendered inline template (0.4ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=my-fun-little-store.myshopify.com" for 127.0.0.1 at 2015-10-09 15:47:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:47:40 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 15:47:40 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=http%3A%2F%2Fteststorequoc.myshopify.com%2Fadmin" for 127.0.0.1 at 2015-10-09 15:47:47 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"http://teststorequoc.myshopify.com/admin"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=teststorequoc.myshopify.com" for 127.0.0.1 at 2015-10-09 15:47:47 -0700
+
+
+Started GET "/auth/shopify/callback?code=545b8d2195658ab5a3a9df3248ce95ce&hmac=d27551f73889ca4be4c2c906b0ad51b2c5f26836bfd493d1d8282485a00776b5&shop=teststorequoc.myshopify.com&signature=77642e9db277450f26c0da946ccec83a&state=7943ab686ea456abd1ae0a44987419c5f6482475056d6f74&timestamp=1444430865" for 127.0.0.1 at 2015-10-09 15:47:47 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"545b8d2195658ab5a3a9df3248ce95ce", "hmac"=>"d27551f73889ca4be4c2c906b0ad51b2c5f26836bfd493d1d8282485a00776b5", "shop"=>"teststorequoc.myshopify.com", "signature"=>"77642e9db277450f26c0da946ccec83a", "state"=>"7943ab686ea456abd1ae0a44987419c5f6482475056d6f74", "timestamp"=>"1444430865"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms)
+
+ActiveRecord::StatementInvalid (Could not find table 'shops'):
+  app/models/session_storage.rb:3:in `store'
+
+
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.7ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateShops (20150428215339)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+DEPRECATION WARNING: `#timestamp` was called without specifying an option for `null`. In Rails 5, this behavior will change to `null: false`. You should manually specify `null: true` to prevent the behavior of your existing migrations from changing. (called from block in up at /Users/qle/Downloads/embedded-app-example-master/db/migrate/20150428215339_create_shops.rb:6)
+  [1m[35m (0.4ms)[0m  CREATE TABLE "shops" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "shopify_domain" varchar NOT NULL, "shopify_token" varchar NOT NULL, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.9ms)[0m  [1mCREATE UNIQUE INDEX "index_shops_on_shopify_domain" ON "shops" ("shopify_domain")[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20150428215339"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.1ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_shops_on_shopify_domain' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_shops_on_shopify_domain' AND type='index'
+[0m
+
+
+Started GET "/auth/shopify/callback?code=545b8d2195658ab5a3a9df3248ce95ce&hmac=d27551f73889ca4be4c2c906b0ad51b2c5f26836bfd493d1d8282485a00776b5&shop=teststorequoc.myshopify.com&signature=77642e9db277450f26c0da946ccec83a&state=7943ab686ea456abd1ae0a44987419c5f6482475056d6f74&timestamp=1444430865" for 127.0.0.1 at 2015-10-09 15:50:03 -0700
+
+OAuth2::Error (<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>400 - Oauth error invalid_request</title>
+  <style type="text/css">
+
+    * { border:0; margin:0; padding:0; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; }
+    html,body { height:100%; border:0; margin:0; padding:0; font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:300; background:#fff; }
+    body { min-height:100%; font-size:16px; line-height:22px; color:#6c6c6c; }
+    a { color:#479ccf; }
+
+    h1,h2,h3,h4,h5,h6 { text-align:left; margin:0 0 20px 0; color:#31373D; font-weight:700; }
+    h1 { font-size:28px; line-height:48px; margin-bottom:7px; }
+    h2 { font-size:20px; font-weight:300; line-height:30px; color:#6c6c6c; }
+    h3 { font-size:17px; line-height:30px; position:relative; padding-bottom:18px; margin-bottom:22px; font-weight:400; }
+    h3:after { content:""; position:absolute; left:0; bottom:0; height:2px; width:76px; background:#EAEAEA; }
+    h4 { font-size:14px; margin-bottom:3px; }
+
+    img { max-width:100%; }
+
+    li { margin-bottom:5px; }
+
+    .ico { display:inline-block; }
+    .ico svg { background-size:contain; background-position:center; width:24px; height:24px; margin-bottom:5px; }
+
+    .wrapper { min-width:320px; max-width:650px; margin:0 auto; padding:20px; }
+
+    .hero { margin-bottom:30px; }
+
+    .content--block { position:relative; margin-bottom:50px; }
+    .content--desc { margin-bottom:32px; position:relative; }
+    .content--desc-large { font-size:20px; line-height:28px; }
+
+    .request-id { padding-top:100px; font-size:13px; color:#ccc; }
+
+    @media all and (min-width:500px) {
+      body { padding:60px 0; }
+      .wrapper { padding:20px 20px 20px 100px; }
+      .ico svg { width:40px; height:40px; margin-bottom:0; }
+      .hero { margin-bottom:70px; }
+      .content--block { margin-bottom:80px; }
+      .content--desc .ico { position:absolute; left:-70px; top:-7px; }
+    }
+
+    @media all and (min-width:900px) {
+      .wrapper { padding:20px; }
+    }
+
+  </style>
+</head>
+
+<body class="status-error status-code-500">
+
+  <div class="wrapper">
+    <div class="hero">
+      <svg width="160px" height="176px" viewBox="0 0 160 176" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+        <title>shopify-bag-outline</title>
+        <desc>Created with Sketch.</desc>
+        <defs></defs>
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+          <g id="user-action-required-2" sketch:type="MSArtboardGroup" transform="translate(-297.000000, -81.000000)" stroke="#979797" stroke-dasharray="5">
+            <g id="shopify-bag-outline" sketch:type="MSLayerGroup" transform="translate(298.000000, 82.000000)">
+              <path d="M138.817711,32.9976853 C138.371951,32.7161619 137.887187,32.6604147 137.887187,32.6604147 L123.887534,31.6151547 L113.584904,21.3716063 C113.200436,21.0733588 112.749104,20.9005425 112.286628,20.8085596 L104.647414,174.188624 L158.389365,162.551396 L139.402771,34.070819 C139.402771,34.070819 139.257899,33.2847834 138.817711,32.9976853" id="Fill-1" sketch:type="MSShapeGroup"></path>
+              <path d="M104.652986,20.8643068 L99.4292354,22.483763 C97.1196409,15.7244147 93.9714603,10.8994944 90.0264836,8.10655958 C87.070537,6.01325214 83.8137024,5.13244635 80.3144857,5.408395 C79.5984836,4.46347992 78.8323334,3.59939829 77.9742453,2.90534562 C74.1100625,-0.222072416 69.1286936,-0.707073074 63.1694384,1.45591837 C45.436545,7.89750757 37.8224056,30.7622225 35.033619,42.4328993 L19.170132,47.3470151 C19.170132,47.3470151 15.5009693,48.3894878 14.6400951,49.4235984 C13.6956409,50.558054 13.5117649,53.615788 13.5117649,53.615788 L0.300550361,155.58857 L99.4988854,174.183049 L107.138099,20.7778986 C106.043201,20.5632719 104.926014,20.8001975 104.652986,20.8643068 L104.652986,20.8643068 Z M87.081681,12.7586636 C90.1602116,14.9383792 92.375082,19.3061725 93.9491723,24.1812653 L85.6218167,26.7595734 C85.6134587,26.1630783 85.6106727,25.5693706 85.5855987,24.9533641 C85.3850067,19.5932706 84.6550745,15.0777472 83.4153043,11.4207307 C84.7470126,11.5628861 85.9756388,11.9754154 87.081681,12.7586636 L87.081681,12.7586636 Z M62.4868683,33.9286636 C64.7825327,25.0620711 69.1621256,16.0561106 77.4671932,12.5273127 C79.1972995,17.0205372 79.6987796,23.1471547 79.6653476,28.6048058 L62.4868683,33.9286636 L62.4868683,33.9286636 Z M65.2115768,7.08638578 C68.8083035,5.77911389 71.558086,5.87109677 73.6531584,7.23969059 C62.5453743,12.3544964 57.6503714,25.0955194 55.513509,36.0888677 L41.7952423,40.3395918 C44.9099909,29.1929388 51.7774822,11.964266 65.2115768,7.08638578 L65.2115768,7.08638578 Z M74.6366166,82.0524358 C73.8509645,81.6705675 72.9204403,81.2608255 71.8673321,80.8705951 C70.8225819,80.4831521 69.6608197,80.1124332 68.4015474,79.8058236 C67.1506332,79.499214 65.8077809,79.2511389 64.3897067,79.1034088 C62.9883484,78.9612535 61.5173401,78.9138683 59.9906118,79.0030639 C58.5892535,79.0866847 57.3188373,79.3347597 56.2016511,79.7333522 C55.0956089,80.1291573 54.1344387,80.6726926 53.3432145,81.3472337 C52.5547764,82.0217749 51.9307123,82.8245346 51.4905242,83.7499381 C51.0531221,84.669767 50.79681,85.7122396 50.746662,86.8634194 C50.710444,87.7163515 50.8413861,88.5358354 51.1422741,89.3330204 C51.4431622,90.1302054 51.9112103,90.9106662 52.5519904,91.6883397 C53.1927705,92.4688005 54.0062827,93.246474 54.9925269,94.0380843 C55.984343,94.8352693 57.1572493,95.6519658 58.5112455,96.4965359 C60.4057259,97.7090375 62.3419963,99.0804187 64.1863286,100.65249 C66.055735,102.24686 67.8248453,104.044707 69.3460016,106.093417 C70.8838739,108.167213 72.1626481,110.489084 73.0263083,113.095265 C73.8955405,115.718171 74.3357286,118.614238 74.1964285,121.805766 C73.9707625,127.023704 72.8285023,131.522503 70.9368079,135.254778 C69.0701876,138.936881 66.4931371,141.832948 63.3895325,143.929043 C60.3555779,145.98054 56.8396452,147.254363 53.0144665,147.76445 C49.3035138,148.263388 45.319533,148.040399 41.2157542,147.134507 C41.1823222,147.126145 41.1488902,147.117783 41.1182442,147.112208 C41.0848122,147.106633 41.0541662,147.098271 41.0207342,147.089909 C40.9873022,147.084334 40.9538702,147.075972 40.9232242,147.06761 C40.8897921,147.059248 40.8591461,147.053673 40.8257141,147.045311 C38.9005878,146.579822 37.0423254,145.972178 35.2955031,145.266976 C33.5765407,144.570136 31.9606604,143.778525 30.4924382,142.922806 C29.0409319,142.075448 27.7287256,141.169556 26.5920374,140.230216 C25.4664932,139.302025 24.510895,138.340386 23.7614609,137.378747 L28.2914977,122.340939 C29.0548619,122.987606 29.9909581,123.720682 31.0552103,124.467695 C32.1306065,125.225856 33.3397307,126.000743 34.6352209,126.725456 C35.9446412,127.455745 37.3432135,128.13586 38.7835757,128.687758 C40.240654,129.248017 41.7423083,129.677271 43.2300326,129.897472 C44.5422388,130.0898 45.7151451,130.050777 46.7431793,129.819426 C47.7767855,129.585288 48.6599476,129.156034 49.3843078,128.570689 C50.1086679,127.982556 50.674226,127.235543 51.0642661,126.379824 C51.4598782,125.521317 51.6827582,124.554103 51.7273342,123.519992 C51.7719102,122.483094 51.6771862,121.510305 51.4180882,120.562603 C51.1589901,119.614901 50.735518,118.700646 50.1225979,117.780818 C49.5124638,116.866564 48.7212396,115.949522 47.7210655,115.00182 C46.7320353,114.059692 45.542413,113.089691 44.1326968,112.061155 C42.4053764,110.770607 40.7783521,109.368565 39.3240598,107.846666 C37.8836976,106.341492 36.6104953,104.713673 35.5657451,102.9437 C34.5321389,101.193238 33.7186268,99.2978328 33.1920727,97.2435484 C32.6655186,95.1948387 32.4231365,92.9788874 32.5290045,90.5650336 C32.7045226,86.5289361 33.5124627,82.8078104 34.860887,79.4574036 C36.2232413,76.0735484 38.1567256,73.0353259 40.5805461,70.4207821 C43.0545146,67.7532785 46.0578231,65.5038789 49.5236078,63.7729282 C53.0869025,61.9918051 57.1656073,60.7430678 61.6789281,60.1493601 C63.7767865,59.8761988 65.7854929,59.7451929 67.6883313,59.7368308 C69.6162437,59.7284687 71.42993,59.8427505 73.1015303,60.0573772 C74.7926326,60.2720039 76.3332909,60.5869756 77.6984312,60.9716313 C79.0775015,61.3618618 80.2699097,61.8245635 81.2533679,62.3262883 L74.6366166,82.0524358 L74.6366166,82.0524358 Z" id="Fill-10" sketch:type="MSShapeGroup"></path>
+          </g>
+        </g>
+      </g>
+    </svg>
+    </div>
+    <div class="content">
+      <div class="content--block">
+        <div class="content--desc">
+          <i class="ico ico-svg ico-40-svg">
+            <svg viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                <g id="back-soon-3" sketch:type="MSArtboardGroup" transform="translate(-230.000000, -519.000000)">
+                  <g id="what-went-wrong?" sketch:type="MSLayerGroup" transform="translate(231.000000, 444.000000)">
+                    <g id="warning" transform="translate(0.000000, 77.000000)" sketch:type="MSShapeGroup">
+                      <path d="M17.593,0.492 C18.217,-0.589 19.778,-0.589 20.402,0.492 L37.766,30.567 C38.39,31.648 37.61,33 36.361,33 L1.634,33 C0.386,33 -0.395,31.648 0.229,30.567 L17.593,0.492 L17.593,0.492 Z" id="Stroke-1" stroke="#E9BE33" stroke-width="2" stroke-linejoin="round"></path>
+                      <path d="M20.75,28 C20.75,28.966 19.966,29.75 19,29.75 C18.033,29.75 17.25,28.966 17.25,28 C17.25,27.034 18.033,26.25 19,26.25 C19.966,26.25 20.75,27.034 20.75,28" id="Fill-2" fill="#E9BE33"></path>
+                      <path d="M19,23 L19,8" id="Stroke-3" stroke="#E9BE33" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </i>
+          <p class="content--desc-large">Oops, something went wrong.</p>
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What happened?</h3>
+        <div class="content--desc">
+          Oauth error invalid_request: 
+        </div>
+      </div>
+      <div class="content--block">
+        <h3>What can I do?</h3>
+        <div class="content--desc">
+          <ul>
+            <li>Press the back button on your browser.</li>
+            <li>Return to your <a href="/admin">admin dashboard</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="request-id">Request ID: 7c7b2994-f840-4afe-a630-db0366f4bf2e</div>
+  </div>
+</body>
+</html>
+):
+  oauth2 (1.0.0) lib/oauth2/client.rb:113:in `request'
+  oauth2 (1.0.0) lib/oauth2/client.rb:138:in `get_token'
+  oauth2 (1.0.0) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:89:in `build_access_token'
+  omniauth-oauth2 (1.3.0) lib/omniauth/strategies/oauth2.rb:73:in `callback_phase'
+  omniauth-shopify-oauth2 (1.1.10) lib/omniauth/strategies/shopify.rb:76:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.2) lib/rack/etag.rb:24:in `call'
+  rack (1.6.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.2) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:649:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:776:in `_run_call_callbacks'
+  activesupport (4.2.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  quiet_assets (1.1.0) lib/quiet_assets.rb:27:in `call_with_quiet_assets'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.2) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.2) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.2) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.2) lib/rack/content_length.rb:15:in `call'
+  thin (1.6.3) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.6.3) lib/thin/connection.rb:84:in `catch'
+  thin (1.6.3) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.6.3) lib/thin/connection.rb:53:in `process'
+  thin (1.6.3) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.7) lib/eventmachine.rb:187:in `run'
+  thin (1.6.3) lib/thin/backends/base.rb:73:in `start'
+  thin (1.6.3) lib/thin/server.rb:162:in `start'
+  rack (1.6.2) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.2) lib/rack/server.rb:286:in `start'
+  railties (4.2.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:4:in `require'
+  bin/rails:4:in `<main>'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:50:36 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 15:50:36 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 212ms (Views: 212.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=http%3A%2F%2Fteststorequoc.myshopify.com%2Fadmin" for 127.0.0.1 at 2015-10-09 15:50:44 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"http://teststorequoc.myshopify.com/admin"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=teststorequoc.myshopify.com" for 127.0.0.1 at 2015-10-09 15:50:44 -0700
+
+
+Started GET "/auth/shopify/callback?code=b2eab5e3adab3cd2f0a48cae42a8e36c&hmac=5bc64844f1e42034663c70e8b6f21dcc67c752aa803dcbe96baf3b80eef6586c&shop=teststorequoc.myshopify.com&signature=0f59e4f7ecc5d4bb4ce5fbb998f5a137&state=1c8b126f947c24ea21cc5fd6b0dc2a310eb51dc429479345&timestamp=1444431045" for 127.0.0.1 at 2015-10-09 15:50:47 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"b2eab5e3adab3cd2f0a48cae42a8e36c", "hmac"=>"5bc64844f1e42034663c70e8b6f21dcc67c752aa803dcbe96baf3b80eef6586c", "shop"=>"teststorequoc.myshopify.com", "signature"=>"0f59e4f7ecc5d4bb4ce5fbb998f5a137", "state"=>"1c8b126f947c24ea21cc5fd6b0dc2a310eb51dc429479345", "timestamp"=>"1444431045"}
+  [1m[36mShop Load (0.1ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."shopify_domain" = ? LIMIT 1[0m  [["shopify_domain", "teststorequoc.myshopify.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mShop Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "shops" WHERE "shops"."shopify_domain" = 'teststorequoc.myshopify.com' LIMIT 1[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "shops" ("shopify_domain", "shopify_token", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["shopify_domain", "teststorequoc.myshopify.com"], ["shopify_token", "ee9a3f1de8d56b253fc6e6ac79c717c4"], ["created_at", "2015-10-09 22:50:47.744475"], ["updated_at", "2015-10-09 22:50:47.744475"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 41ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:50:47 -0700
+Processing by HomeController#index as HTML
+  [1m[35mShop Load (0.1ms)[0m  SELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/embedded_app (3.4ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?hmac=b9194a8b49a47911b004d4ee339b4e0314046c4e018a896b556bb12a71d1d548&protocol=https%3A%2F%2F&shop=teststorequoc.myshopify.com&signature=d2730eb6c66355771f4926337a5eeeba&timestamp=1444431167" for 127.0.0.1 at 2015-10-09 15:52:50 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"hmac"=>"b9194a8b49a47911b004d4ee339b4e0314046c4e018a896b556bb12a71d1d548", "protocol"=>"https://", "shop"=>"teststorequoc.myshopify.com", "signature"=>"d2730eb6c66355771f4926337a5eeeba", "timestamp"=>"1444431167"}
+  [1m[36mShop Load (0.1ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.8ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:53:24 -0700
+Processing by HomeController#index as HTML
+  [1m[35mShop Load (0.1ms)[0m  SELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.6ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:53:29 -0700
+Processing by HomeController#index as HTML
+  [1m[36mShop Load (0.1ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.6ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:53:43 -0700
+Processing by HomeController#index as HTML
+  [1m[35mShop Load (0.1ms)[0m  SELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.8ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 15:53:55 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 211ms (Views: 210.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=http%3A%2F%2Fteststorequoc.myshopify.com%2Fadmin" for 127.0.0.1 at 2015-10-09 15:54:04 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"http://teststorequoc.myshopify.com/admin"}
+  Rendered inline template (0.3ms)
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=teststorequoc.myshopify.com" for 127.0.0.1 at 2015-10-09 15:54:04 -0700
+
+
+Started GET "/auth/shopify/callback?code=12c95b2c74f819a800753e9a45a900f8&hmac=b6026e6dd8dfc4d681d130c2f66dc0f426b8e08836167c64e8a54e0d8c2181b1&shop=teststorequoc.myshopify.com&signature=a9838b31c243ce4e19650a1902a01645&state=3788c67636dbaf1a93ee48423843fa997da8a069505c527b&timestamp=1444431272" for 127.0.0.1 at 2015-10-09 15:54:34 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"12c95b2c74f819a800753e9a45a900f8", "hmac"=>"b6026e6dd8dfc4d681d130c2f66dc0f426b8e08836167c64e8a54e0d8c2181b1", "shop"=>"teststorequoc.myshopify.com", "signature"=>"a9838b31c243ce4e19650a1902a01645", "state"=>"3788c67636dbaf1a93ee48423843fa997da8a069505c527b", "timestamp"=>"1444431272"}
+  [1m[36mShop Load (0.2ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."shopify_domain" = ? LIMIT 1[0m  [["shopify_domain", "teststorequoc.myshopify.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mShop Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "shops" WHERE ("shops"."shopify_domain" = 'teststorequoc.myshopify.com' AND "shops"."id" != 1) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "shops" SET "shopify_token" = ?, "updated_at" = ? WHERE "shops"."id" = ?  [["shopify_token", "ba17c74b3843095282af059b144cbaf6"], ["updated_at", "2015-10-09 22:54:35.408346"], ["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 52ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 15:54:35 -0700
+Processing by HomeController#index as HTML
+  [1m[35mShop Load (0.2ms)[0m  SELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/embedded_app (3.2ms)
+Completed 200 OK in 19ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/?hmac=2d2aeb798f1cc462a0f01450c276f6a52dfb322e6d945ce299168ed8737dea4c&protocol=https%3A%2F%2F&shop=teststorequoc.myshopify.com&signature=10086a80787c910417717cf1bfdd9be1&timestamp=1444431276" for 127.0.0.1 at 2015-10-09 15:54:39 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"hmac"=>"2d2aeb798f1cc462a0f01450c276f6a52dfb322e6d945ce299168ed8737dea4c", "protocol"=>"https://", "shop"=>"teststorequoc.myshopify.com", "signature"=>"10086a80787c910417717cf1bfdd9be1", "timestamp"=>"1444431276"}
+  [1m[36mShop Load (0.1ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.7ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/form_page" for 127.0.0.1 at 2015-10-09 15:56:29 -0700
+Processing by HomeController#form_page as HTML
+  [1m[35mShop Load (0.2ms)[0m  SELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered home/form_page.html.erb within layouts/embedded_app (0.6ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/?hmac=c36e1bf4eae9073318ae0795afaf7cb7c029d9dd1e6121b3cadad6b1d0cac99c&protocol=https%3A%2F%2F&shop=teststorequoc.myshopify.com&signature=f65e41da17c9426d195d9367eea2a675&timestamp=1444431392" for 127.0.0.1 at 2015-10-09 15:56:34 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"hmac"=>"c36e1bf4eae9073318ae0795afaf7cb7c029d9dd1e6121b3cadad6b1d0cac99c", "protocol"=>"https://", "shop"=>"teststorequoc.myshopify.com", "signature"=>"f65e41da17c9426d195d9367eea2a675", "timestamp"=>"1444431392"}
+  [1m[36mShop Load (0.1ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.6ms)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 16:23:02 -0700
+Processing by HomeController#index as HTML
+  [1m[36mShop Load (0.4ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/embedded_app (5.1ms)
+Completed 200 OK in 281ms (Views: 228.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2015-10-09 16:23:15 -0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 224ms (Views: 224.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login?shop=http%3A%2F%2Fteststorequoc.myshopify.com%2Fadmin" for 127.0.0.1 at 2015-10-09 16:23:40 -0700
+Processing by SessionsController#new as HTML
+  Parameters: {"shop"=>"http://teststorequoc.myshopify.com/admin"}
+  Rendered inline template (0.2ms)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/auth/shopify?shop=teststorequoc.myshopify.com" for 127.0.0.1 at 2015-10-09 16:23:40 -0700
+
+
+Started GET "/auth/shopify/callback?code=8f7a57d04c23476e98e17c74af93f69f&hmac=5f483cf1f425149d288012940ad17f9aa51bafe2dbd3adc3558c8b4eccfb31f0&shop=teststorequoc.myshopify.com&signature=64142a35c40b9a60713dd1c78712e447&state=0d7b97fbc822621613c00c0a2651a10669540da7c44bf931&timestamp=1444433030" for 127.0.0.1 at 2015-10-09 16:23:52 -0700
+Processing by SessionsController#callback as HTML
+  Parameters: {"code"=>"8f7a57d04c23476e98e17c74af93f69f", "hmac"=>"5f483cf1f425149d288012940ad17f9aa51bafe2dbd3adc3558c8b4eccfb31f0", "shop"=>"teststorequoc.myshopify.com", "signature"=>"64142a35c40b9a60713dd1c78712e447", "state"=>"0d7b97fbc822621613c00c0a2651a10669540da7c44bf931", "timestamp"=>"1444433030"}
+  [1m[36mShop Load (0.5ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."shopify_domain" = ? LIMIT 1[0m  [["shopify_domain", "teststorequoc.myshopify.com"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mShop Exists (0.1ms)[0m  [1mSELECT  1 AS one FROM "shops" WHERE ("shops"."shopify_domain" = 'teststorequoc.myshopify.com' AND "shops"."id" != 1) LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "shops" SET "shopify_token" = ?, "updated_at" = ? WHERE "shops"."id" = ?  [["shopify_token", "02d4ec8b34941ff02b2a78cc621aaa55"], ["updated_at", "2015-10-09 23:23:53.313174"], ["id", 1]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 44ms (ActiveRecord: 2.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-09 16:23:53 -0700
+Processing by HomeController#index as HTML
+  [1m[35mShop Load (0.2ms)[0m  SELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/embedded_app (3.2ms)
+Completed 200 OK in 15ms (Views: 12.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/?hmac=0747be6d66f6c41d87d3ef3be13c9d50fe8dae51375128c0a34a48a5dc1b956f&protocol=https%3A%2F%2F&shop=teststorequoc.myshopify.com&signature=4283453e6eae32f36689e86ac8bb2ac4&timestamp=1444433036" for 127.0.0.1 at 2015-10-09 16:23:59 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"hmac"=>"0747be6d66f6c41d87d3ef3be13c9d50fe8dae51375128c0a34a48a5dc1b956f", "protocol"=>"https://", "shop"=>"teststorequoc.myshopify.com", "signature"=>"4283453e6eae32f36689e86ac8bb2ac4", "timestamp"=>"1444433036"}
+  [1m[36mShop Load (0.1ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.7ms)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?hmac=a266197cbdb54596160d2ed7ac46ca7942898a13e2d091bb84d7063c805f756e&protocol=https%3A%2F%2F&shop=teststorequoc.myshopify.com&signature=8194cfd7071588e03cd61c5c18b28110&timestamp=1444433073" for 127.0.0.1 at 2015-10-09 16:24:36 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"hmac"=>"a266197cbdb54596160d2ed7ac46ca7942898a13e2d091bb84d7063c805f756e", "protocol"=>"https://", "shop"=>"teststorequoc.myshopify.com", "signature"=>"8194cfd7071588e03cd61c5c18b28110", "timestamp"=>"1444433073"}
+  [1m[35mShop Load (0.1ms)[0m  SELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/embedded_app (1.7ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/?hmac=d93bc349d2a6cbad719ff315cdcbc3a0b2a0a4aad31c946dfc4caf3f40f7a696&protocol=https%3A%2F%2F&shop=teststorequoc.myshopify.com&signature=8508a6c1288a0a175c5c62eaae5061f4&timestamp=1444433094" for 127.0.0.1 at 2015-10-09 16:24:56 -0700
+Processing by HomeController#index as HTML
+  Parameters: {"hmac"=>"d93bc349d2a6cbad719ff315cdcbc3a0b2a0a4aad31c946dfc4caf3f40f7a696", "protocol"=>"https://", "shop"=>"teststorequoc.myshopify.com", "signature"=>"8508a6c1288a0a175c5c62eaae5061f4", "timestamp"=>"1444433094"}
+  [1m[36mShop Load (0.1ms)[0m  [1mSELECT  "shops".* FROM "shops" WHERE "shops"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered common/_top_bar.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/embedded_app (0.6ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.1ms)
